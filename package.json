@@ -1,0 +1,25 @@
+{
+  "name": "react-webpack-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --no-cache --env=jsdom",
+    "start": "webpack-dev-server --content-base public/",
+    "build": "webpack -p"
+  },
+  "author": "Syed abbas",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
